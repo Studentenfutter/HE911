@@ -1,0 +1,39 @@
+##
+## registry entry for corpus HE9
+##
+
+# long descriptive name for the corpus
+NAME "HE9"
+# corpus ID (must be lowercase in registry!)
+ID   he9
+# path to binary data files
+HOME ./indexed_corpora/he9
+# optional info file (displayed by ",info;" command in CQP)
+INFO ./indexed_corpora/he9/.info
+
+# corpus properties provide additional information about the corpus:
+##:: charset = "utf8"
+#========================================================================#
+
+
+##
+## p-attributes (token annotations)
+##
+
+ATTRIBUTE word
+ATTRIBUTE pos
+ATTRIBUTE lemma
+ATTRIBUTE ner
+
+##
+## s-attributes
+##
+
+STRUCTURE speaker
+STRUCTURE party
+STRUCTURE role
+STRUCTURE position
+STRUCTURE lp
+STRUCTURE session
+STRUCTURE date
+STRUCTURE stage_type

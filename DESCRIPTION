@@ -1,0 +1,12 @@
+Package: he911
+Type: Package
+Title: data/corpora/HE911
+Version: 0.2
+Date: 2019-12-29
+Author: Gilberg Florian <florian.gilberg@posteo.de> [cre]
+	Blätte Andreas <andreas.blaette at uni-due.de> [aut]
+Maintainer: Florian Gilberg <florian.gilberg@uni-due.de>
+Depends: 
+LazyData: yes
+Description: Early version of Corpus of Plenary Protocols of Hessen State Parliament, legislative periods 9-11 
+License: 
